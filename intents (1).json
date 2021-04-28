@@ -1,0 +1,118 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered??"],
+         "responses": ["I can guide you by giving crop details", "Offering support for farmers related to crops"],
+         "context": [""]
+        },
+        {"tag": "Rice",
+         "patterns": ["Rice", "Details of rice", "Fertilizers used for rice", "Producer of rice"],
+         "responses": ["Origin:China, Largest producer in India:West Bengal, Fertilizer:Urea"],
+         "context": [""]
+        },
+        {"tag": "Wheat",
+         "patterns": ["Wheat", "Details of wheat", "Fertilizers used for wheat", "Producer of wheat"],
+         "responses": ["Origin:Turkey, Largest producer in India:Uttar Pradesh, Fertilizer:Ammonium sulphate,Ammonium sulphate nitrate,Urea,Ammonium chloride,Calcium ammonium nitrate,Nitrophos"],
+         "context": [""]
+        },
+        {"tag": "Maize",
+         "patterns": ["Maize", "Details of maize", "Fertilizers used for maize", "Producer of maize"],
+         "responses": ["Origin:United States, Largest producer in India:Madhya Pradesh & Karnataka, Fertilizer:Urea,Mono ammonium phosphate,muriate of potash"],
+         "context": [""]
+        },
+        {"tag": "Millets",
+         "patterns": ["Millets", "Details of millets", "Fertilizers used for millets", "Producer of millets"],
+         "responses": ["Origin:East Africa, Largest producer in India:Rajasthan, Fertilizer:Phosphorus,Sodium,Potassium"],
+         "context": [""]
+        },
+        {"tag": "Pulses",
+         "patterns": ["Pulses", "Details of pulses", "Fertilizers used for pulses", "Producer of pulses"],
+         "responses": ["Origin:West Africa, Largest producer in India:Madhya Pradesh, Fertilizer:Phosphorus,Nitrogen"],
+         "context": [""]
+        },
+        {"tag": "Sugarcane",
+         "patterns": ["Sugarcane", "Details of sugarcane", "Fertilizers used for sugarcane", "Producer of sugarcane"],
+         "responses": ["Origin:New Guinea, Largest producer in India:Uttar Pradesh, Fertilizer:Azospirillum"],
+         "context": [""]
+        },
+        {"tag": "Tobacco",
+         "patterns": ["Tobacco", "Details of tobacco", "Fertilizers used for tobacco", "Producer of tobacco"],
+         "responses": ["Origin:America, Largest producer in India:Andhra Pradesh, Fertilizer:Potash"],
+         "context": [""]
+        },
+        {"tag": "Jute",
+         "patterns": ["Jute", "Details of jute", "Fertilizers used for jute", "Producer of jute"],
+         "responses": ["Origin:Bangladesh, Largest producer in India:West Bengal, Fertilizer:Potash,Compost,Phosphorus,Nitrogen"],
+         "context": [""]
+        },
+        {"tag": "Cotton",
+         "patterns": ["Cotton", "Details of cotton", "Fertilizers used for cotton", "Producer of cotton"],
+         "responses": ["Origin:Pakistan, Largest producer in India:Maharashtra, Fertilizer:Nitrogen,Phosphorus"],
+         "context": [""]
+        },
+        {"tag": "Oilseeds",
+         "patterns": ["Oilseeds", "Details of oilseeds", "Fertilizers used for oilseeds", "Producer of oilseeds"],
+         "responses": ["Origin:, Largest producer in India:Madhya Pradesh, Fertilizer:Nitrogen,Sulphur"],
+         "context": [""]
+        },
+        {"tag": "Tea",
+         "patterns": ["Tea", "Details of tea", "Fertilizers used for tea", "Producer of tea"],
+         "responses": ["Origin:China, Largest producer in India:Assam, Fertilizer:Nitrogen,Phosphorus,Potash"],
+         "context": [""]
+        },
+        {"tag": "Coconut",
+         "patterns": ["Coconut", "Details of Coconut", "Fertilizers used for Coconut", "Producer of Coconut"],
+         "responses": ["Origin:Islands in south-east Asia, Largest producer in India:Kerala, Fertilizer:Urea,Phospate,Potash"],
+         "context": [""]
+        },
+        {"tag": "Rubber",
+         "patterns": ["Rubber", "Details of rubber", "Fertilizers used for rubber", "Producer of rubber"],
+         "responses": ["Origin:Brazil, Largest producer in India:Kerala, Fertilizer:Urea,Rock phosphate,Potash,Zinc sulphate,Borax"],
+         "context": [""]
+        },
+        {"tag": "crop_types",
+         "patterns": ["Types of Indian crops", "List Indian crops", "Different crops", "Crop types"],
+         "responses": ["1.Food crop 2.Cash crop 3.Plantation crop 4.Horticulture crop"],
+         "context": [""]
+        },
+        {"tag": "Food",
+         "patterns": ["Example of food crop", "Food crop example"],
+         "responses": ["Wheat, Maize, Rice, Millets and Pulses etc."],
+         "context": [""]
+        },
+        {"tag": "Cash",
+         "patterns": ["Example of cash crop", "Cash crop example"],
+         "responses": ["Sugarcane, Tobacco, Cotton, Jute and Oilseeds etc."],
+         "context": [""]
+        },
+        {"tag": "Plantation",
+         "patterns": ["Example of plantation crop", "Plantation crop example"],
+         "responses": ["Coffee, Coconut, Tea, and Rubber etc."],
+         "context": [""]
+        },
+        {"tag": "Horticulture",
+         "patterns": ["Example of horticulture crop", "Horticulture crop example"],
+         "responses": ["Fruits and Vegetables"],
+         "context": [""]
+        }
+   ]
+}
